@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3673ca6a-2e16-4f69-af59-e5d9ef90edb7" name="Default Changelist" comment="" />
+    <list default="true" id="3673ca6a-2e16-4f69-af59-e5d9ef90edb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Login/LoginStyle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tasks/AddingTasksForm/AddingTasksForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tasks/AddingTasksForm/AddingTasksFormStyle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tasks/Pagination/Pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tasks/Pagination/PaginationStyle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tasks/Task/Task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tasks/Task/TaskStyle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tasks/Tasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tasks/TasksStyle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/Login/loginAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/Login/loginReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/Tasks/tasksAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/Tasks/tasksReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/Home/HomeStyle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enviroments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oQURSKl3nIL0FTGCuK574qIX9p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -16,8 +46,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Projects/a_plus_site/src/Redux/Language/LanguageReducer.ts" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EzioMercer\Desktop\My\Interview\BeeJee\to-do_list\src\Redux\Tasks" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -41,8 +98,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613218299801</updated>
-      <workItem from="1613218301742" duration="548000" />
+      <workItem from="1613218301742" duration="4216000" />
+      <workItem from="1613322298830" duration="7802000" />
+      <workItem from="1613373061823" duration="10924000" />
+      <workItem from="1613408278416" duration="7142000" />
+      <workItem from="1613455623629" duration="55000" />
+      <workItem from="1613541669077" duration="2424000" />
+      <workItem from="1613628692625" duration="3938000" />
+      <workItem from="1613720258168" duration="5953000" />
+      <workItem from="1613736778121" duration="10629000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="594" y="304" key="EditFileWatcherDialog" timestamp="1613335093349">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="594" y="304" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613335093349" />
+    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1613743869799">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1613743869799" />
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1613767962745">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1613767962745" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1613767962729">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1613767962729" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1613767962729">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1613767962729" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1613767962729">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1613767962729" />
+    <state x="656" y="257" width="607" height="536" key="find.popup" timestamp="1613768329566">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="257" width="607" height="536" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1613768329566" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1613720653261">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1613720653261" />
   </component>
 </project>
