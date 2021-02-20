@@ -1,6 +1,6 @@
 import {LOGIN, LOGOUT} from './loginAction';
 
-const INITIAL_STATE = localStorage.getItem('token') || '';
+const INITIAL_STATE = localStorage.getItem('token') || null;
 
 function loginReducer(state = INITIAL_STATE, action) {
 	switch (action.type) {
@@ -9,7 +9,7 @@ function loginReducer(state = INITIAL_STATE, action) {
 			return action.payload;
 		case LOGOUT:
 			localStorage.removeItem('token');
-			return '';
+			return null;
 		default:
 			return state;
 	}

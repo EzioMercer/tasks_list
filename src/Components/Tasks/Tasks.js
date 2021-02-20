@@ -1,7 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {getTasksList} from '../../Redux/Tasks/tasksAction';
-import AddingTasksForm from './AddingTasksForm/AddingTasksForm';
 import Task from './Task/Task';
 import styles from './TasksStyle.module.scss';
 import Pagination from './Pagination/Pagination';
@@ -9,12 +8,10 @@ import Pagination from './Pagination/Pagination';
 export default function Tasks() {
 
 	const dispatch = useDispatch();
-	const tasksList = useSelector(state => state.tasksReducer).tasks;
-	const page = useSelector(state => state.tasksReducer).page;
 
-	useEffect(() => {
-		dispatch(getTasksList());
-	}, []);
+	const taskState = useSelector(state => state.tasksReducer);
+	const tasksList = taskState.tasks;
+	const page = taskState.page;
 
 	return (
 		<div>

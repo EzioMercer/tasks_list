@@ -31,11 +31,9 @@ function parseStatus(status) {
 
 export default function Task(props) {
 
-	const token = useSelector(state => state.loginReducer);
-	const sortField = useSelector(state => state.tasksReducer).sort_field;
-	const sortDirection = useSelector(state => state.tasksReducer).sort_direction;
-	const page = useSelector(state => state.tasksReducer).page;
 	const dispatch = useDispatch();
+
+	const taskState = useSelector(state => state.tasksReducer);
 
 	const task = props.task;
 	const parsedStatus = parseStatus(task.status);
@@ -50,7 +48,7 @@ export default function Task(props) {
 		const completeStatus = inputs.isDone.checked ? '1' : '0';
 		const editedStatus = inputs.text.value !== task.text || task.status === 1 || task.status === 11 ?  '1' : '0';
 
-		dispatch(editTask(task.id, +(completeStatus + editedStatus), inputs.text.value, token, sortField, sortDirection, page));
+		dispatch(editTask(task.id, +(completeStatus + editedStatus), inputs.text.value, taskState.sort_field, taskState.sort_direction, taskState.page));
 	};
 
 	return (

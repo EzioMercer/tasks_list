@@ -97,7 +97,7 @@ export function addTask(username, email, text, sortField, sortDirection, page) {
 	}
 }
 
-export function editTask(id, status, text, token, sortField, sortDirection, page) {
+export function editTask(id, status, text, sortField, sortDirection, page) {
 	return (dispatch = useDispatch()) => {
 		(async () => {
 
@@ -105,7 +105,7 @@ export function editTask(id, status, text, token, sortField, sortDirection, page
 
 			body.append('status', status);
 			body.append('text', text);
-			body.append('token', token);
+			body.append('token', localStorage.getItem('token'));
 
 			try {
 				let response = await fetch(API_EDIT_TASK(id), {
